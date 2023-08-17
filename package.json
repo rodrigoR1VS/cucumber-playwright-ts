@@ -1,0 +1,31 @@
+{
+  "name": "tc-new-ui-automation",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js  ./src/tests/features/*.feature ./src/tests/steps/*.steps.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^9.4.0",
+    "@playwright/test": "^1.37.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber-expressions": "^16.1.2",
+    "@cucumber/gherkin": "^26.2.0",
+    "@cucumber/gherkin-utils": "^8.0.5",
+    "@cucumber/html-formatter": "^20.4.0",
+    "@cucumber/language-service": "^1.4.1",
+    "@cucumber/messages": "^22.0.0",
+    "@cucumber/tag-expressions": "^5.0.6",
+    "@types/cucumber": "^7.0.0",
+    "@types/node": "^20.5.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "playwright": "^1.37.0"
+  }
+}
